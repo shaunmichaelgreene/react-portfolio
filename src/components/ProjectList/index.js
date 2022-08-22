@@ -1,130 +1,118 @@
 import React, { useState } from 'react';
-// import Modal from '../Modal';
+import Modal from '../Modal';
 
 const ProjectList = ({ category }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [projects] = useState([
     {
-      name: 'Grocery aisle',
-      category: 'commercial',
+      name: 'Run-Buddy',
+      category: 'Front-End',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Grocery booth',
-      category: 'commercial',
+      name: 'Horiseon',
+      category: 'Front-End',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Building exterior',
-      category: 'commercial',
+      name: 'Password-Generator',
+      category: 'Front-End',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Restaurant table',
-      category: 'commercial',
+      name: 'Coding-Quiz',
+      category: 'Front-End',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Cafe interior',
-      category: 'commercial',
+      name: 'Work-Day-Scheduler',
+      category: 'Front-End',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Cat green eyes',
-      category: 'portraits',
+      name: 'Weather Dashboard',
+      category: 'Front-End',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Green parrot',
-      category: 'portraits',
+      name: 'Nature-Finder',
+      category: 'Front-End',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Yellow macaw',
-      category: 'portraits',
+      name: 'README-Generator',
+      category: 'OOP/ORM/TDD',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Pug smile',
-      category: 'portraits',
+      name: 'Team-Profile Generator',
+      category: 'OOP/ORM/TDD',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Pancakes',
-      category: 'food',
+      name: 'Note-Taker',
+      category: 'OOP/ORM/TDD',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Burrito',
-      category: 'food',
+      name: 'E-Commerce-Back-End',
+      category: 'Back-End (SQL, NoSQL, MVC, React)',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Scallop pasta',
-      category: 'food',
+      name: 'Tech-Blog',
+      category: 'Back-End (SQL, NoSQL, MVC, React)',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Burger',
-      category: 'food',
+      name: 'The-Last-Word',
+      category: 'Back-End (SQL, NoSQL, MVC, React)',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Fruit bowl',
-      category: 'food',
+      name: 'Social-Network-API',
+      category: 'Back-End (SQL, NoSQL, MVC, React)',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Green river',
-      category: 'landscape',
+      name: 'Budget-Tracker',
+      category: 'Back-End (SQL, NoSQL, MVC, React)',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Docks',
-      category: 'landscape',
+      name: 'Deep-Thoughts',
+      category: 'Full-Stack (MERN, SPA)',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Panoramic village by sea',
-      category: 'landscape',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
-    {
-      name: 'Domestic landscape',
-      category: 'landscape',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
-    {
-      name: 'Park bench',
-      category: 'landscape',
+      name: 'Group-Project #3',
+      category: 'Full-Stack (MERN, SPA)',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     }
-  ]);
+  ])
 
-  const currentPhotos = photos.filter(photo => photo.category === category);
-  const [currentPhoto, setCurrentPhoto] = useState();
+  const currentPhotos = projects.filter(project => project.category === category);
+  const [currentPhoto, setCurrentProject] = useState();
   
   const toggleModal = (image, i) => {
-    setCurrentPhoto({...image, index: i})
+    setCurrentProject({...image, index: i})
     setIsModalOpen(!isModalOpen);
   }
 
@@ -135,7 +123,7 @@ const ProjectList = ({ category }) => {
       <div className="flex-row">
         {currentPhotos.map((image, i) => (
           <img
-            src={require(`../../assets/small/${category}/${i}.jpg`).default}
+            src={require(`../../assets/small/${category}/${image.name}-preview.jpg`).default}
             alt={image.name}
             className="img-thumbnail mx-1"
             onClick={() => toggleModal(image, i)}

@@ -4,7 +4,7 @@ import Navigation from '../Navigation';
 function Header() {
     return (
         <div>
-            <p>Shaun's Portfolio</p>
+            <p>Welcome (Header)</p>
             <Navigation></Navigation>
         </div>
     )
