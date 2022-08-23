@@ -7,7 +7,7 @@ function Resume () {
   return (
     <section className="my-5" >
       <h1 id="resume">Who am I?</h1>
-      <img src={bioImage} className="my-2" style={{ width: "33%" }} alt="picture of shaun" />
+      <img src={bioImage} className="my-2" style={{ width: "33%" }} alt="shaun" />
       {/* insert resume iframe */}
       <div className="my-2">
         <p>

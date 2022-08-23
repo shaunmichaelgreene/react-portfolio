@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import Modal from '../Modal';
+import Project from '../Project';
 
 const ProjectList = ({ category }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [projects] = useState([
     {
-      name: 'Run-Buddy',
-      category: 'Front-End',
+      name: "Run-Buddy",
+      category: "Front-End",
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
@@ -35,7 +35,7 @@ const ProjectList = ({ category }) => {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Weather Dashboard',
+      name: 'Weather-Dashboard',
       category: 'Front-End',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
@@ -66,50 +66,50 @@ const ProjectList = ({ category }) => {
     },
     {
       name: 'E-Commerce-Back-End',
-      category: 'Back-End (SQL, NoSQL, MVC, React)',
+      category: 'Back-End',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Tech-Blog',
-      category: 'Back-End (SQL, NoSQL, MVC, React)',
+      category: 'Back-End',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'The-Last-Word',
-      category: 'Back-End (SQL, NoSQL, MVC, React)',
+      category: 'Back-End',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Social-Network-API',
-      category: 'Back-End (SQL, NoSQL, MVC, React)',
+      category: 'Back-End',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Budget-Tracker',
-      category: 'Back-End (SQL, NoSQL, MVC, React)',
+      category: 'Back-End',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Deep-Thoughts',
-      category: 'Full-Stack (MERN, SPA)',
+      category: 'Full-Stack',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Group-Project #3',
-      category: 'Full-Stack (MERN, SPA)',
+      category: 'Full-Stack',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     }
   ])
 
-  const currentPhotos = projects.filter(project => project.category === category);
-  const [currentPhoto, setCurrentProject] = useState();
+  const currentProjects = projects.filter(project => project.category === category);
+  const [currentProject, setCurrentProject] = useState();
   
   const toggleModal = (image, i) => {
     setCurrentProject({...image, index: i})
@@ -119,11 +119,11 @@ const ProjectList = ({ category }) => {
   return (
     <div>
       {isModalOpen && (
-        <Modal currentPhoto={currentPhoto} onClose={toggleModal} />)}
+        <Project currentProject={currentProject} onClose={toggleModal} />)}
       <div className="flex-row">
-        {currentPhotos.map((image, i) => (
+        {currentProjects.map((image, i) => (
           <img
-            src={require(`../../assets/small/${category}/${image.name}-preview.jpg`).default}
+            src={require(`../../assets/small/${category}/${image.name} preview.JPG`).default}
             alt={image.name}
             className="img-thumbnail mx-1"
             onClick={() => toggleModal(image, i)}
