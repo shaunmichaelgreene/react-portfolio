@@ -134,6 +134,9 @@ const ProjectList = ({ category }) => {
         <Project currentProject={currentProject} onClose={toggleModal} />)}
       <div className="flex-row">
         {currentProjects.map((image, i) => (
+          
+          // <p className="project-title">{image.name}</p>
+          
           <img
             src={require(`../../assets/small/${category}/${image.name} preview.JPG`).default}
             alt={image.name}
@@ -141,6 +144,7 @@ const ProjectList = ({ category }) => {
             onClick={() => toggleModal(image, i)}
             key={image.name}
           />
+          
         ))}
       </div>
     </div>
