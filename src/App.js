@@ -14,9 +14,9 @@ function App() {
           name: 'Front-End',
           description: 'Projects built with HTML, CSS, JavaScript, and APIs with a focus on front-end development',
         },
-        { name: 'OOP/ORM/TDD', description: 'Portraits of people in my life' },
-        { name: 'Back-End', description: 'Delicious delicacies' },
-        { name: 'Full-Stack', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
+        { name: 'OOP/ORM/TDD', description: 'Projects built with a focus on Object-Oriented Programming, Object Relational Mapping, and Test-Driven Development' },
+        { name: 'Back-End', description: 'Projects with a focus on back-end development, featuring SQL, NoSQL, MVC' },
+        { name: 'Full-Stack', description: 'Full Stack projects built with a MERN state of mind' },
       ]);
     
       const [currentCategory, setCurrentCategory] = useState(categories[0]);
