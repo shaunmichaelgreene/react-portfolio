@@ -54,21 +54,21 @@ const ProjectList = ({ category }) => {
     },
     {
       name: 'README-Generator',
-      category: 'OOP/ORM/TDD',
+      category: 'OOP-ORM-TDD',
       description:
         'An intuitive Node.js command line application that receives user input about a new project and generates a professional README file in Markdown format.',
       url: "https://github.com/shaunmichaelgreene/readme-generator"
     },
     {
-      name: 'Team-Profile Generator',
-      category: 'OOP/ORM/TDD',
+      name: 'Team-Profile-Generator',
+      category: 'OOP-ORM-TDD',
       description:
         'A unique node.JS app that uses object-oriented-programming and that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.',
       url: "https://github.com/shaunmichaelgreene/team-profile-generator"
     },
     {
       name: 'Note-Taker',
-      category: 'OOP/ORM/TDD',
+      category: 'OOP-ORM-TDD',
       description:
         'Primarily a server-side app that allows users to write and save notes. The front end has been tied to the back end using Express.js to save/retrieve note data with a JSON file. The application is also deployed live to Heroku, making it easy for the user to keep track of their notes and tasks across multiple sessions.',
       url: "https://github.com/shaunmichaelgreene/note-taker"
@@ -113,7 +113,7 @@ const ProjectList = ({ category }) => {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
-      name: 'Group-Project #3',
+      name: 'Group-Project-3',
       category: 'Full-Stack',
       description:
         'Coming Soon! Check back on 9/7/2022!'
