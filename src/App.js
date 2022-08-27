@@ -21,7 +21,7 @@ function App() {
     
       const [currentCategory, setCurrentCategory] = useState(categories[0]);
     
-      const [contactSelected, setContactSelected] = useState(false);
+    //   const [contactSelected, setContactSelected] = useState(false);
 
     return (
         <div>
@@ -43,15 +43,15 @@ function App() {
             </Header>
 
             <main>
-                {!contactSelected ? (
+                {/* {!contactSelected ? ( */}
                     <>
                         <Portfolio currentCategory={currentCategory}></Portfolio>
                         <Resume></Resume>
                         <About></About>
+                        <ContactForm></ContactForm>
                     </>
-                ) : (
-                    <ContactForm></ContactForm>
-                )}
+                {/* ) : (
+                )} */}
             </main>
             <Footer></Footer>
         </div>

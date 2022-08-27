@@ -1,4 +1,4 @@
-import {React, useState } from 'react';
+import { React } from 'react';
 import Navigation from '../Navigation';
 
 function Header() {
@@ -14,7 +14,7 @@ function Header() {
     
     //   const [currentCategory, setCurrentCategory] = useState(categories[0]);
     
-      const [contactSelected, setContactSelected] = useState(false);
+    //   const [contactSelected, setContactSelected] = useState(false);
     return (
         <div>
             {/* <Navigation></Navigation> */}
@@ -22,8 +22,8 @@ function Header() {
                     // categories={categories}
                     // setCurrentCategory={setCurrentCategory}
                     // currentCategory={currentCategory}
-                    contactSelected={contactSelected}
-                    setContactSelected={setContactSelected}
+                    // contactSelected={contactSelected}
+                    // setContactSelected={setContactSelected}
             ></Navigation>
         </div>
     )
