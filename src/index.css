@@ -25,10 +25,11 @@ main {
 html,
 body {
   min-height: 100%;
+
 }
 
 body {
-  margin: 0;
+  margin: 0 3% 0 3%;
   padding: 0;
   font-weight: 600;
   line-height: 1.5;
@@ -37,7 +38,6 @@ body {
   background: var(--dark);
   color: var(--light);
   font-family: 'Arial', cursive;
-
 }
 
 h1,
@@ -91,10 +91,47 @@ a:hover {
   text-decoration: underline;
 }
 
+.bio {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.bio-text {
+  max-width: 45%;
+  text-align: center;
+}
+
+.category-container {
+  display: flex;
+  margin-top: 2%;
+  border-bottom: solid 3px white;
+  padding-bottom: 2%;
+}
+
+.category-container span:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#contact {
+  margin-top: 5%;
+  border-bottom: solid 3px white;
+  padding-bottom: 2%;
+}
+
+#contact-form {
+  padding-top: 2%;
+}
+
+#portfolio {
+  margin-top: 5%;
+}
+
 header {
   background: var(--dark);
   position: fixed;
   width: 100%;
+  top: 0;
 }
 
 header a {
@@ -158,6 +195,7 @@ li {
 
 nav a:hover {
   text-decoration: none;
+  color: red;
 }
 
 nav  li {
@@ -214,6 +252,7 @@ textarea {
 .my-5 {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
+  padding-top: 2%;
 }
 
 .px-1 {

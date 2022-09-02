@@ -1,8 +1,6 @@
 import {React, useState} from 'react';
 import ProjectList from '../ProjectList';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import Navigation from '../Navigation';
-import Header from '../Header';
 
 function Portfolio(props) {
   const [categories] = useState([ 
@@ -20,12 +18,11 @@ function Portfolio(props) {
     <section>
       <h1 id="portfolio">Portfolio</h1>
      
-      <div>
+      <div className="category-container">Select A Category:
       {categories.map((category) => (
             <li
               className={`mx-1 ${
                 currentCategory.name === category.name 
-                // && !contactSelected && 'navActive'
                 }`}
               key={category.name}
             >
