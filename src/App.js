@@ -38,10 +38,10 @@ function App() {
             <Router>
                 <Header />
                 <Routes>
-                    <Route path="/" element={<About />} />
-                    <Route path="/portfolio" element={<Portfolio currentCategory={currentCategory} />} />
-                    <Route path="/resume" element={<Resume />} />
-                    <Route path="/contact" element={<ContactForm />} />
+                    <Route exact path="/" element={<About />} />
+                    <Route exact path="/portfolio" element={<Portfolio currentCategory={currentCategory} />} />
+                    <Route exact path="/resume" element={<Resume />} />
+                    <Route exact path="/contact" element={<ContactForm />} />
                 </Routes>
                 <Footer/>
             </Router>
