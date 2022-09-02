@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.69eb4efc.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.829b62bb.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.829b62bb.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.909908f5.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.909908f5.js.map",
+    "static/js/2.4fbd2546.chunk.js": "/react-portfolio/static/js/2.4fbd2546.chunk.js",
+    "static/js/2.4fbd2546.chunk.js.map": "/react-portfolio/static/js/2.4fbd2546.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.69eb4efc.chunk.css.map": "/react-portfolio/static/css/main.69eb4efc.chunk.css.map",
+    "static/js/2.4fbd2546.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.4fbd2546.chunk.js.LICENSE.txt",
+    "static/media/Coding-Quiz preview.JPG": "/react-portfolio/static/media/Coding-Quiz preview.99ea1c6f.JPG",
+    "static/media/E-Commerce-Back-End preview.JPG": "/react-portfolio/static/media/E-Commerce-Back-End preview.ca1a52dc.JPG",
+    "static/media/E-Commerce-Back-end preview.JPG": "/react-portfolio/static/media/E-Commerce-Back-end preview.ca1a52dc.JPG",
+    "static/media/Note-Taker preview.JPG": "/react-portfolio/static/media/Note-Taker preview.eabcf28a.JPG",
+    "static/media/Password-Generator preview.JPG": "/react-portfolio/static/media/Password-Generator preview.5b4504f9.JPG",
+    "static/media/README-Generator preview.JPG": "/react-portfolio/static/media/README-Generator preview.f5603130.JPG",
+    "static/media/Team-Profile-Generator preview.JPG": "/react-portfolio/static/media/Team-Profile-Generator preview.646fe732.JPG",
+    "static/media/Tech-Blog preview.JPG": "/react-portfolio/static/media/Tech-Blog preview.d8eed4d8.JPG",
+    "static/media/The-Last-Word preview.JPG": "/react-portfolio/static/media/The-Last-Word preview.c0caa2ba.JPG",
+    "static/media/Weather-Dashboard preview.JPG": "/react-portfolio/static/media/Weather-Dashboard preview.5d3c60e9.JPG",
+    "static/media/Work-Day-Scheduler preview.JPG": "/react-portfolio/static/media/Work-Day-Scheduler preview.cf0f1bec.JPG",
+    "static/media/bio-img.5da0f7fa.jpg": "/react-portfolio/static/media/bio-img.5da0f7fa.jpg",
+    "static/media/horiseon preview.JPG": "/react-portfolio/static/media/horiseon preview.328a51bc.JPG",
+    "static/media/nature-finder preview.JPG": "/react-portfolio/static/media/nature-finder preview.67e0adf3.JPG",
+    "static/media/resume.78d2926c.pdf": "/react-portfolio/static/media/resume.78d2926c.pdf",
+    "static/media/run-buddy preview.JPG": "/react-portfolio/static/media/run-buddy preview.a3dcbcb6.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.909908f5.js",
+    "static/js/2.4fbd2546.chunk.js",
+    "static/css/main.69eb4efc.chunk.css",
+    "static/js/main.829b62bb.chunk.js"
+  ]
+}
