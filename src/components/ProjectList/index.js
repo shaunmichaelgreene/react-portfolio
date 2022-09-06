@@ -116,7 +116,8 @@ const ProjectList = ({ category }) => {
       name: 'Group-Project-3',
       category: 'Full-Stack',
       description:
-        'Coming Soon! Check back on 9/7/2022!'
+        'Third group project. Complete full-stack project built with MongoDB, Express, React, and Node. This is a podcast search engine for the animal lover, appropriately named PawedCaster. Users can quickly and conveniently locate animal & pet-related podcasts for simple streaming and following. All proceeds benefit the ASPCA, World Wildlife Fund, and local animal rescues.',
+      url: "https://github.com/shaunmichaelgreene/group-project-3"
     }
   ])
 

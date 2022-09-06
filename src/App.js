@@ -35,7 +35,7 @@ function App() {
     return (
     
         <div>
-            <Router>
+            <Router basename={ process.env.PUBLIC_URL }>
                 <Header />
                 <Routes>
                     <Route exact path="/" element={<About />} />

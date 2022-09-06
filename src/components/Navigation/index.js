@@ -1,35 +1,37 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function Navigation(props) {
 
   return (
     <header className="flex-row px-1">
       <h2>
-        <a data-testid="link" href="/">
+        <Link data-testid="link" to="/">
           Shaun's Workshop
-        </a>
+        </Link>
       </h2>
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a data-testid="about" href="/">
+            <Link data-testid="about" to="/">
               About me
-            </a>
+            </Link>
           </li>
           <li className="mx-2">
-            <a data-testid="portfolio" href="/portfolio">
+            <Link data-testid="portfolio" to="/portfolio">
               Portfolio
-            </a>
+            </Link>
           </li>
           <li className="mx-2">
-            <a data-testid="resume" href="/resume">
+            <Link data-testid="resume" to="/resume">
               Resume
-            </a>
+            </Link>
           </li>
           <li className="mx-2">
-            <a data-testid="contact" href="/contact">
+            <Link data-testid="contact" to="/contact">
               Contact
-              </a>
+              </Link>
           </li>
           
         </ul>
