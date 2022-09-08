@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.69eb4efc.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.40bd564c.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.40bd564c.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.108bf994.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.108bf994.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.909908f5.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.909908f5.js.map",
     "static/js/2.f1a45bff.chunk.js": "/react-portfolio/static/js/2.f1a45bff.chunk.js",
@@ -10,15 +10,19 @@
     "index.html": "/react-portfolio/index.html",
     "static/css/main.69eb4efc.chunk.css.map": "/react-portfolio/static/css/main.69eb4efc.chunk.css.map",
     "static/js/2.f1a45bff.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.f1a45bff.chunk.js.LICENSE.txt",
+    "static/media/Budget-Tracker preview.JPG": "/react-portfolio/static/media/Budget-Tracker preview.b35c7e76.JPG",
     "static/media/Coding-Quiz preview.JPG": "/react-portfolio/static/media/Coding-Quiz preview.99ea1c6f.JPG",
+    "static/media/Deep-Thoughts preview.JPG": "/react-portfolio/static/media/Deep-Thoughts preview.7e6f7d5d.JPG",
     "static/media/E-Commerce-Back-End preview.JPG": "/react-portfolio/static/media/E-Commerce-Back-End preview.ca1a52dc.JPG",
     "static/media/E-Commerce-Back-end preview.JPG": "/react-portfolio/static/media/E-Commerce-Back-end preview.ca1a52dc.JPG",
+    "static/media/Group-Project-3 preview.JPG": "/react-portfolio/static/media/Group-Project-3 preview.f3418dce.JPG",
     "static/media/Horiseon preview.JPG": "/react-portfolio/static/media/Horiseon preview.328a51bc.JPG",
     "static/media/Nature-Finder preview.JPG": "/react-portfolio/static/media/Nature-Finder preview.67e0adf3.JPG",
     "static/media/Note-Taker preview.JPG": "/react-portfolio/static/media/Note-Taker preview.eabcf28a.JPG",
     "static/media/Password-Generator preview.JPG": "/react-portfolio/static/media/Password-Generator preview.5b4504f9.JPG",
     "static/media/README-Generator preview.JPG": "/react-portfolio/static/media/README-Generator preview.f5603130.JPG",
     "static/media/Run-Buddy preview.JPG": "/react-portfolio/static/media/Run-Buddy preview.a3dcbcb6.JPG",
+    "static/media/Social-Network-API preview.JPG": "/react-portfolio/static/media/Social-Network-API preview.fbf0e7db.JPG",
     "static/media/Team-Profile-Generator preview.JPG": "/react-portfolio/static/media/Team-Profile-Generator preview.646fe732.JPG",
     "static/media/Tech-Blog preview.JPG": "/react-portfolio/static/media/Tech-Blog preview.d8eed4d8.JPG",
     "static/media/The-Last-Word preview.JPG": "/react-portfolio/static/media/The-Last-Word preview.c0caa2ba.JPG",
@@ -31,6 +35,6 @@
     "static/js/runtime-main.909908f5.js",
     "static/js/2.f1a45bff.chunk.js",
     "static/css/main.69eb4efc.chunk.css",
-    "static/js/main.40bd564c.chunk.js"
+    "static/js/main.108bf994.chunk.js"
   ]
 }
