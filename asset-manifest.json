@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.69eb4efc.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.108bf994.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.108bf994.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.a63ae94f.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.a63ae94f.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.909908f5.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.909908f5.js.map",
     "static/js/2.f1a45bff.chunk.js": "/react-portfolio/static/js/2.f1a45bff.chunk.js",
@@ -14,7 +14,6 @@
     "static/media/Coding-Quiz preview.JPG": "/react-portfolio/static/media/Coding-Quiz preview.99ea1c6f.JPG",
     "static/media/Deep-Thoughts preview.JPG": "/react-portfolio/static/media/Deep-Thoughts preview.7e6f7d5d.JPG",
     "static/media/E-Commerce-Back-End preview.JPG": "/react-portfolio/static/media/E-Commerce-Back-End preview.ca1a52dc.JPG",
-    "static/media/E-Commerce-Back-end preview.JPG": "/react-portfolio/static/media/E-Commerce-Back-end preview.ca1a52dc.JPG",
     "static/media/Group-Project-3 preview.JPG": "/react-portfolio/static/media/Group-Project-3 preview.f3418dce.JPG",
     "static/media/Horiseon preview.JPG": "/react-portfolio/static/media/Horiseon preview.328a51bc.JPG",
     "static/media/Nature-Finder preview.JPG": "/react-portfolio/static/media/Nature-Finder preview.67e0adf3.JPG",
@@ -35,6 +34,6 @@
     "static/js/runtime-main.909908f5.js",
     "static/js/2.f1a45bff.chunk.js",
     "static/css/main.69eb4efc.chunk.css",
-    "static/js/main.108bf994.chunk.js"
+    "static/js/main.a63ae94f.chunk.js"
   ]
 }
