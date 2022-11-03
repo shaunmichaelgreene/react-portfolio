@@ -2,6 +2,7 @@ import React from 'react'
 import bioImage from "../../assets/about/bio-img.jpg";
 
 function About() {
+  const image = <a href="https://i.imgur.com/UBmMl4Q.jpeg" target="_blank" rel="noopener noreferrer">Gunner & Rousey</a>
 
   return (
     <section className="my-5" >
@@ -9,7 +10,7 @@ function About() {
       <div className="bio">
         <img src={bioImage} className="my-2" style={{ width: "33%" }} alt="shaun" />
         <p className="bio-text">
-        Shaun Greene is an amateur developer, carpenter, and woodworker. He is currently progressing through the Full Stack Development Certification course at Michigan State University. Professionally, Shaun has worn many hats during his career. With prior experience in sales, business development, project management, oil & gas, and land management; Shaun currently works as a President's Club Title Analyst for Rocket Companies. Shaun is focused on securing a full-time position as a developer upon graduation in September. Shaun spends his free time building custom furniture, working on home improvements, and hiking with his dogs - Gunner & Rousey.
+        Full stack developer working to apply my technical & communication skills in a Business Analyst role. Recently earned a Certificate in Full Stack Web Development from Michigan State University. I have a diverse professional background, with prior experience in sales, business development, project management, oil & gas, and title research. My colleagues know me as a reliable leader & trainer with a unique ability to explain complex concepts in a meaningful and impactful way. My current assignment at work has me acting as a liaison between our technology and client-facing teams, while also writing process content for a decision tree application. I love front-end development and have a strong passion for JavaScript. I love solving problems and learning new technologies & languages. When I'm not coding, I enjoy building custom furniture, working on home improvements, and hiking with my dogs - {image}.
       </p>
       </div>
       <div className="my-2">
