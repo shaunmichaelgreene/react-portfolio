@@ -94,11 +94,17 @@ a:hover {
 .bio {
   display: inline-flex;
   justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.bio-image {
+  margin: 0 auto;
 }
 
 .bio-text {
   max-width: 45%;
   text-align: center;
+  margin: 0 auto;
 }
 
 .category-container {
@@ -140,6 +146,7 @@ header a {
 
 .footer {
   margin-left: 50px;
+  text-align: center;
 }
 
 button {
